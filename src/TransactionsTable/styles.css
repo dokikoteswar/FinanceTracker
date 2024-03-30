@@ -1,0 +1,15 @@
+.search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,37 @@
+.my-card{
+    box-shadow: var( --shadow);
+    /* min-width: 350px; */
+    margin: 1rem ;
+    border-radius: 0.5rem;
+    flex: 1;
+    /* gap: 30px; */
+    /* min-width: 300px; */
+    font-family: "Montserrat", sans-serif;
+
+}
+.ant-card-head-title{
+    margin: 0px !important;
+    font-weight: 600;
+}
+.ant-card-body{
+    margin: 0;
+    padding: 0px 24px 24px 24px !important;
+}
+.my-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.6rem auto;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 98%;
+    /* padding: 10px !important; */
+}
+.my-card p{
+    margin: 8px 0px !important;
+}
+.my-card button{
+    width: 100%;
+    text-align:  center;
+    cursor: pointer;
+}
