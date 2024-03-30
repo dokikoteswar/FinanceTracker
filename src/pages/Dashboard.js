@@ -149,7 +149,7 @@ function Dashboard() {
   return (
     <div>
       <Header />
-      {loading ? (<p>loading...</p>):
+      {loading ? (<div className="loader-main"><div class="loader"></div></div>):
      ( <>
       <Cards
         income={income}
